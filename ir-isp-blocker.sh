@@ -71,31 +71,31 @@ function blocking_menu {
 
     case $isp in
         "MCI")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/mci-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/mci-ips.ipv4')
             ;;
         "MTN")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/mtn-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/mtn-ips.ipv4')
             ;;
         "TCI")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/tci-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/tci-ips.ipv4')
             ;;
         "Rightel")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/rightel-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/rightel-ips.ipv4')
             ;;
         "Shatel")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/shatel-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/shatel-ips.ipv4')
             ;;
         "AsiaTech")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/asiatech-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/asiatech-ips.ipv4')
             ;;
         "Pishgaman")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/pishgaman-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/pishgaman-ips.ipv4')
             ;;
         "MobinNet")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/mobinnet-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/mobinnet-ips.ipv4')
             ;;
         "ParsOnline")
-            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/parsan-ips.ipv4')
+            IP_LIST=$(curl -s 'https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/parsan-ips.ipv4')
             ;;
     esac
 
