@@ -22,6 +22,6 @@ ISPs that script support now
 ### Using
 Open your terminal and run the script with
 ```
-bash <(curl -s https://raw.githubusercontent.com/bj.er/ISP-BLOCK/main/ir-isp-blocker.sh)
+bash <(curl -s https://raw.githubusercontent.com/bjerfan/ISP-BLOCK/main/ir-isp-blocker.sh)
 ```
 Select ISP that you want to block/unblock
